@@ -197,22 +197,6 @@ noremap <silent> <F9> :y+<CR> :silent !CURR=`xdotool getactivewindow`; xdotool s
 :ca px Px
 :ca pv Pv
 
-" -----------------------------------------------------------------------
-" Latex Settings
-" -----------------------------------------------------------------------
-
-let g:Tex_DefaultTargetFormat = 'pdf'
-
-"-------------------------------------------------------------------------------
-"  Perl Settings
-"-------------------------------------------------------------------------------
-
-let g:Perl_Debugger='ptkdb'
-let perl_fold = 1
-let perl_fold_blocks = 1
-au BufRead,BufNewfile,BufEnter *.pl set foldmethod=syntax
-au BufRead,BufNewfile,BufEnter *.pl set number
-
 " ----------------------------------------------------------------------
 " Gvim Settings
 " ----------------------------------------------------------------------
@@ -281,10 +265,8 @@ noremap <silent> ;;f : call ReflowTable()<CR>
 " SnipMate Plugin Settings
 "-----------------------------------------------------------------------------
 let g:snippets_dir = "~/.vim/snippets"
-let g:snips_author = "Justin M Fear"
-let g:snips_email = "jfear@ufl.edu"
-
-
+let g:snips_author = "Felicia New"
+let g:snips_email = "fnew@ufl.edu"
 
 "=============================================================================
 "                                Functions                                      
