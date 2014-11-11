@@ -1,6 +1,6 @@
 Installation:
 
-    git clone git://github.com/jfear/dotvim.git ~/.vim
+    git clone git://github.com/fnew/dotvim.git ~/.vim
 
 Create symlink to vimrc:
 
